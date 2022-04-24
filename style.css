@@ -1,0 +1,27 @@
+ body{
+    background-image("......")
+    background-color:powderblue;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+   }
+   h1{ 
+    color:black
+   font-family:courier;
+   font-size:400%;
+   font-align:center;
+    }
+   h2{
+    color:orange;
+    font-family:verdana;
+    font-size:200%; }
+   div:b{
+    border:5px DodgerBlue;
+   padding: 40px;
+   color:red
+   font-size:180%;
+    } 
+   a:link{
+    color:pink;
+    }
+
