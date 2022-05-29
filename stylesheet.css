@@ -1,0 +1,126 @@
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+}
+.logo>a{
+    padding:2% ;
+    color:blue
+}
+.site{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+}
+.Commerce{
+    display: flex;
+    flex-direction: row;
+    background-color: silver;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left:2%;
+}
+.box1>button{
+    font-size: 12px;
+    width: 34%;
+    height: 40px;
+    padding-bottom: 2%;
+    margin-bottom: 7%;
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    background-color: white;
+    justify-content: space-between;
+}
+.heading1{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    height: 300px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.heading2{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.heading3{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    height: 300px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    align-content: center;
+}
+
+.bx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: silver;
+    margin-top: 40%;
+    margin-left: 5%;
+    height: 8vh;
+    width: 88%;
+    
+}
+h2{
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 4%;
+}
+input{
+    height: 30px;
+    margin-top: 0.8%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+}
+#rem{
+    height:34px;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 12%;
+    align-items: center;
+    background-color:dodgerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5%;
+}
+#buc{
+    width: 50%;
+}
+.heading1>h1{
+    margin-left: 15%;
+}
+.heading2>h1{
+    margin-left: 15%;
+}
+.heading3>h1{
+    margin-left: 15%;
+}
+.heading1>a{
+    margin-left: 15%;
+}
+.heading2>a{
+    margin-left: 15%;
+}
+.heading3>a{
+    margin-left: 15%;
+}
