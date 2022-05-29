@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bmi.js"></script>
+    <style>
+        #demo1{
+            color: green;
+        }
+        #demo2{
+            color: blue;
+        }
+        #one{
+            margin-left: 2.8%;
+        }
+        fieldset{
+            width: 45%;
+            margin-top: 20%;
+            margin-left: 30%;
+        }
+        .main{
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <div class="main">
+        <label for="Age">Age</label>
+        <input type="text" id="one" placeholder="Enter age"><br><br>
+        <label for="weight">Weight</label>
+        <input type="text" id="two" placeholder="Enter weight"><br><br>
+        <button type="button" id="sub" onclick="result()">Submit</button>
+        <h1 id="demo1"></h1>
+        <h1 id="demo2"></h1>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
